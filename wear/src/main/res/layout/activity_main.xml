@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/view_root"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerInParent="true" >
+
+        <TextView
+            android:id="@+id/tv_connect"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/tv_connect_nodevice" />
+
+        <Button
+            android:id="@+id/btn_stream"
+            android:layout_width="150dip"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/btn_stream_start"
+            android:onClick="onClickButtonStream"
+            android:enabled="false" />
+
+
+    </LinearLayout>
+
+    <!--<android.support.wearable.view.GridViewPager-->
+    <!--android:id="@+id/pager"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent" />-->
+
+    <!--<android.support.wearable.view.DotsPageIndicator-->
+    <!--android:id="@+id/page_indicator"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_gravity="center_horizontal|bottom"-->
+    <!--android:layout_marginBottom="25dp" />-->
+</RelativeLayout>

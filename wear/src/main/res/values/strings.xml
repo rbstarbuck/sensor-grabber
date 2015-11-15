@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Sensor Grabber</string>
+
+    <string name="btn_stream_start">START</string>
+    <string name="btn_stream_stop">STOP</string>
+
+    <string name="tv_connect_nomessenger">Background service not started</string>
+    <string name="tv_connect_nodevice">No compatible device in range</string>
+    <string name="tv_connect_nogoogleapi">Can\'t connect to GoogleApi</string>
+    <string name="tv_connect_disconnected">Companion app not running</string>
+    <string name="tv_connect_connected">Connected, ready to stream</string>
+    <string name="tv_connect_streaming">Streaming to device</string>
+</resources>
